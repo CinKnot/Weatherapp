@@ -1,0 +1,93 @@
+body {
+	background-image: url(images/aftnernoon1.png);
+
+}
+
+.big_container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+body {
+	max-width: 1100px;
+	width: 100%;
+	margin: 0 auto;
+	min-height: 100vh;
+}
+
+header {
+	margin-top: 1%;
+	width: 100%;
+	height: 10%;
+
+}
+
+.top {
+	display: flex;
+	justify-content: space-around;
+}
+
+.bottom-text {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: center;
+	font-family: 'Monospace', cursive;
+	font-size: 20px;
+}
+
+.searchContainer {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+}
+
+.cityname {
+	font-family: 'Monospace', cursive;
+	font-size: 50px;
+}
+
+.weatherContainer {
+	display: flex;
+	flex-flow: row wrap;
+	/*	width: 100%;*/
+	/*	max-width: 900px;*/
+	/*	margin: auto;*/
+	justify-content: space-evenly;
+}
+
+.degrees {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+	font-size: 70px;
+	font-family: 'Monospace', cursive;
+}
+
+.weather-details {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Monospace', cursive;
+	font-size: 20px;
+
+}
+
+
+.flex-temp {
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+}
+
+.title-temp {
+	display: flex;
+	justify-content: center;
+}
+
+.next {
+	display: flex;
+	justify-content: space-around;
+
+}
